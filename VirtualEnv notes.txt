@@ -1,0 +1,22 @@
+WHY CREATE VIRTUAL ENVIRONMENT??
+>>>
+pip install virtualenv
+1. Creating virtual env
+>>> virtualenv <project_name>
+2. Activating Virtualenv
+>>> .\<project_name>\Scripts\activate
+>>> if error comes that script can not be loaded because running script is disabled than
+open powershell as admin and type 
+>>>set-executionpolicy remotesigned
+3. Deactivating/Coming out of the virtualenv
+>>> deactivate
+4.REQUIRMENTS.txt
+>>>Ceate this to specify all the modules used in the project with their specific 
+   versions in a text file important while you hand over the project to the client and 
+   after sometime to avoid mismatching of functions due to different versions of the module
+	4.1 How to list all the modules used in the virtual environment with their versions
+	>>>pip freeze > requirements.txt
+	4.2How to install all the modules given in the requirements.txt all at once
+	>>>pip install -r requirements.txt
+5.How to install all the packages already installed in system to reinstall inside your virtualenv
+>>>virtualenv --system-site-packages <project/virtualenv name>
