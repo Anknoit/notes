@@ -1,2 +1,2 @@
-# notes
-Notes taken from learning ML/AI courses fromm google ml and other sources written in my own language.
+# Notes
+This is a constantly updating repository where I upload and update my notes on several languages, technologies and many more.
